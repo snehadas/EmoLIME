@@ -17,7 +17,7 @@ The implementation of EmoLIME builds on [CoughLIME](https://github.com/glam-impe
       <sub>a) Happy explanation.</sub>
     </td>
     <td align="center">
-      <img src="figures/11b03Wa_example.png" width="480"><br>
+      <img src="figures/11b03Wa_example.png" width="450"><br>
       <sub>b) Angry explanation</sub>
     </td>
   </tr>
