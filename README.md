@@ -27,7 +27,7 @@ The implementation of EmoLIME builds on [CoughLIME](https://github.com/glam-impe
 Components highlighted in green account for a true prediction. Weights are annotated in white.
 a) Higher weight is given to high-pitch sounds. b) More weight is given to low-pitch sounds.</p>
 
-**Main conclusions**
+### Main conclusions
 - We introduce EmoLIME, a LIME-based XAI method for SER, and show that its explanations align well with human intuition.
 - We evaluate EmoLIME qualitatively, quantitatively, and statistically on three emotional speech datasets using both hand-crafted features and Wav2Vec 2.0-based classifiers.
 - We show that EmoLIME is more robust across models than across datasets with distribution shifts, supporting its utility for consistent within-dataset explanations.
@@ -38,15 +38,15 @@ Read more in [the paper](https://arxiv.org/abs/2504.05368).
 
 Follow these steps to reproduce the explanations in Figure 1.
 
-Step 1) Clone the GitHub repo and install requirements
+**Step 1)** Clone the GitHub repo and install requirements
 ```bash
 git clone https://github.com/snehadas/EmoLIME.git
 cd EmoLIME/
 pip install -r requirements.txt
 ```  
-Step 2) Download the Berlin Database of Emotional Speech (EMODB).
+**Step 2)** Download the Berlin Database of Emotional Speech (EMODB).
 
-Step 3) Run the script with the arguments
+**Step 3)** Run the script with the arguments
 ```bash
 python main.py --filename 11b03Wa.wav --emotion angry --model w2v2_FT
 ```
@@ -55,7 +55,7 @@ Two models, which classify four emotions: happy, angry, sad, and neutral, are pr
 1. `ComParE` SVC trained on ComParE hand-crafted features.
 2. `w2v2_FT` SVC trained on embeddings from a fine-tuned Wav2Vec 2.0 model.
 
-Step 4) Generate explanations using a custom SER model
+**Step 4)** Generate explanations using a custom SER model
 
 To use EmoLIME with your own SER model and data, it requires a custom prediction function that output logits rather than class labels.
 Refer to `main.py` to see how and where.
