@@ -22,7 +22,7 @@ def test_single_file(filename, emotion, model_name, predict_func):
     )
 
     """ visualizations """
-    save_path = f'visualizations/{filename}_{total_components}_{dec}_{model_name}.png'
+    save_path = f'../visualizations/{filename}_{total_components}_{dec}_{model_name}.png'
     explanation.show_image_mask_spectrogram(
         0, positive_only=False, negative_only=False, hide_rest=False,
         num_features=10, min_weight=0., save_path=save_path, show_colors=True
