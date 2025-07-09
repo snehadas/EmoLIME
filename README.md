@@ -13,11 +13,11 @@ The implementation of EmoLIME builds on [CoughLIME](https://github.com/glam-impe
 <table>
   <tr>
     <td align="center">
-      <img src="figures/10b01Fa_example.png" width="200"><br>
+      <img src="figures/10b01Fa_example.png" width="300"><br>
       <sub>a) Happy explanation.</sub>
     </td>
     <td align="center">
-      <img src="figures/11b03Wa_example.png" width="300"><br>
+      <img src="figures/11b03Wa_example.png" width="480"><br>
       <sub>b) Angry explanation</sub>
     </td>
   </tr>
