@@ -3,7 +3,6 @@ import librosa
 import matplotlib.pyplot as plt
 from skimage.segmentation import mark_boundaries
 
-
 class SpectralDecomposition(object):
     """ decomposes the cough audio array into equally sized spectral components"""
     def __init__(self, audio, sample_rate, num_components):
