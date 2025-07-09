@@ -10,19 +10,19 @@ The implementation of EmoLIME builds on [CoughLIME](https://github.com/glam-impe
 
 **Example explanations**
 
-<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+<table>
+  <tr>
+    <td align="center">
+      <img src="figures/10b01Fa_example.png" width="200"><br>
+      <sub>a) Happy explanation.</sub>
+    </td>
+    <td align="center">
+      <img src="figures/11b03Wa_example.png" width="300"><br>
+      <sub>b) Angry explanation</sub>
+    </td>
+  </tr>
+</table>
 
-  <div style="flex: 7; margin-right: 10px; text-align: center;">
-    <img src="figures/10b01Fa_example.png" alt="Figure 1" style="width: 80%;">
-    <p><strong>a)</strong> Happy explanation.</p>
-  </div>
-
-  <div style="flex: 10; margin-left: 10px; text-align: center;">
-    <img src="figures/11b03Wa_example.png" alt="Figure 2" style="width: 80%;">
-    <p><strong>b)</strong> Angry explanation.</p>
-  </div>
-
-</div>
 <p style="text-align: center;"><strong>Figure 1:</strong> Example explanations for happy (a) and angry (b) expressions of German sentences from EMODB. 
 Components highlighted in green account for a true prediction. Weights are annotated in white.
 a) Higher weight is given to high-pitch sounds. b) More weight is given to low-pitch sounds.</p>
