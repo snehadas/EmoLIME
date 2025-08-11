@@ -69,12 +69,13 @@ However, only spectral decomposition (splitting the audio array into equal compo
 ## Citation
 
 ```
-@inproceedings{hjuler_emolime_2025,
-author = {Hjuler, Maja and Clemmensen, Line and Das, Sneha},
-year = {2025},
-month = {04},
-pages = {1-5},
-title = {Exploring Local Interpretable Model-Agnostic Explanations for Speech Emotion Recognition with Distribution-Shift},
-doi = {10.1109/ICASSP49660.2025.10889825}
+@inproceedings{hjuler2025exploring,
+  title={Exploring Local Interpretable Model-Agnostic Explanations for Speech Emotion Recognition with Distribution-Shift},
+  author={Hjuler, Maja J and Clemmensen, Line H and Das, Sneha},
+  booktitle={ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={1--5},
+  year={2025},
+  organization={IEEE}
 }
+
 ```
